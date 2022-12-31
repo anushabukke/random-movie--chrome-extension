@@ -21,7 +21,7 @@ async function fetchData() {
   document.querySelector(".genre").innerText = "🎥Genre: " + genre[0];
   document.querySelector(".rating").innerText = "🍿Rating: " + rating;
   document.querySelector(".year").innerText = "🎞️Year: " + data.year;
-  document.querySelector(".rank").innerText = "👍Imbd Rank: " + rank;
+  document.querySelector(".rank").innerText = "👍IMDb Rank: " + rank;
 }
 
 fetchData();
