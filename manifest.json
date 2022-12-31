@@ -1,0 +1,11 @@
+{
+    "name":"movies",
+    "version":"1.0.0",
+    "description":"this is example",
+    "author":"anusha",
+    "manifest_version":3,
+    "action":{
+        "default_popup":"index.html",
+        "default_title":"movies"
+    }
+}

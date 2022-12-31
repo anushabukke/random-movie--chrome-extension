@@ -1,0 +1,53 @@
+*{
+  margin:0;
+}
+
+body{
+  width:300px;
+  padding-top: 10px;
+  background-image: url("movies.png") ; 
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  
+}
+
+h2{
+  margin:0px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: underline;
+  
+}
+
+.thumbnail{
+  margin:0px;
+  height:100px;
+  padding: 20px;
+ 
+}
+.info{
+  margin-left:-40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.description{
+ padding-bottom: 12px;
+ color:white;
+}
+
+.movies.loading {
+  visibility: hidden;
+  max-height: 20px;
+  position: relative;
+}
+
+.movies.loading:after {
+  visibility: visible;
+  content: "Loading...";
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 20px;
+}
